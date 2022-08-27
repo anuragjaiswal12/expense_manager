@@ -89,7 +89,7 @@
     </div>
     <div class="page-content">
         <div class="update_profile">
-            <h3 class="heading">Update Expense</h3>
+            <h3 class="heading">Update Profile</h3>
             <form action="update_profile.php" enctype="multipart/form-data" method="post" class="row-g3">
                 <div class="col-md-8">
                     <img src="<?php echo $dp; ?>" alt="Profile Pic" class="text-center img img-fluid rounded-circle avatar dp">
