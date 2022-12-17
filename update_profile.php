@@ -10,7 +10,7 @@
             location='profile.php';
 		    </script>";
         }
-        elseif(empty($_FILES['file'])){
+        elseif(!empty($_FILES['file'])){
             $filename=$_FILES['file']['name'];
             $tmp=$_FILES['file']['tmp_name'];
             $ext=pathinfo($filename,PATHINFO_EXTENSION);
